@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="0"
+            tests="1">
+
+  <testsuite name="test1"
+    errors="5" failures="0" hostname="" id="" package="test1" skipped="0"
+    tests="1" time="65.34" timestamp="">
+  
+    <testcase name="All jobs " classname="test1" time="65.34" assertions="1">
+
+    
+    <error message="An error occurred while running .click() command on &lt;#root &gt; section &gt; main &gt; aside.sc-pVTFL.hnJCWz &gt; div &gt; div &gt; div &gt; a:nth-child(4)&gt;: Timed out while waiting for element &#34;#root &gt; section &gt; main &gt; aside.sc-pVTFL.hnJCWz &gt; div &gt; div &gt; div &gt; a:nth-child(4)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Object.All jobs  (/home/ab/testing_nightwatch/tests/test1.js:73:9)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       TimeoutError: An error occurred while running .setValue() command on &lt;#root &gt; section &gt; form &gt; div:nth-child(3) &gt;: element not interactable
+   (Session info: chrome=101.0.4951.41)
+ {&#34;error&#34;:{&#34;name&#34;:&#34;ElementNotInteractableError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+       at Object.All jobs  (/home/ab/testing_nightwatch/tests/test1.js:46:25)
+ NoSuchElementError: An error occurred while running .setValue() command on &lt;root &gt; section &gt; form &gt; div:nth-child(4) &gt; inputord&gt;: Timed out while waiting for element &#34;root &gt; section &gt; form &gt; div:nth-child(4) &gt; inputord&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.All jobs  (/home/ab/testing_nightwatch/tests/test1.js:50:25)
+ NoSuchElementError: An error occurred while running .click() command on &lt;#root &gt; section &gt; main &gt; aside.sc-pVTFL.hnJCWz &gt; div &gt; div &gt; div &gt; a:nth-child(2)&gt;: Timed out while waiting for element &#34;#root &gt; section &gt; main &gt; aside.sc-pVTFL.hnJCWz &gt; div &gt; div &gt; div &gt; a:nth-child(2)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.All jobs  (/home/ab/testing_nightwatch/tests/test1.js:64:9)
+ NoSuchElementError: An error occurred while running .click() command on &lt;#root &gt; section &gt; main &gt; aside.sc-pVTFL.hnJCWz &gt; div &gt; div &gt; div &gt; a:nth-child(3)&gt;: Timed out while waiting for element &#34;#root &gt; section &gt; main &gt; aside.sc-pVTFL.hnJCWz &gt; div &gt; div &gt; div &gt; a:nth-child(3)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.All jobs  (/home/ab/testing_nightwatch/tests/test1.js:68:9)
+ NoSuchElementError: An error occurred while running .click() command on &lt;#root &gt; section &gt; main &gt; aside.sc-pVTFL.hnJCWz &gt; div &gt; div &gt; div &gt; a:nth-child(4)&gt;: Timed out while waiting for element &#34;#root &gt; section &gt; main &gt; aside.sc-pVTFL.hnJCWz &gt; div &gt; div &gt; div &gt; a:nth-child(4)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+       at Object.All jobs  (/home/ab/testing_nightwatch/tests/test1.js:73:9)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
